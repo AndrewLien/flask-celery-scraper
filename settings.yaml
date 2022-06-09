@@ -1,0 +1,19 @@
+admin:
+  name: Andrew Lien
+  email: ''
+  notify_list:
+    - andrew.d.lien.1993@gmail.com
+  email_from_domain: '@gmail.com'
+scrapeweb:
+  scrape_script_path: /Users/lienan01/scraper-mvp/scrape-lib/scrapes
+  scrape_cache_path: /Users/lienan01/scraper-mvp/cache
+  db_path: /data/ScrapeWeb.db
+  timezone: America/Chicago
+celery: {}
+master_hosts:
+  internal: ''
+  public: ''
+aws_resources:
+  s3_output_bucket: lxn-harvester-dev
+  s3_landing_dir: ~src//src_data/license/TODO_fromScrape/
+  aws_user: data-dev

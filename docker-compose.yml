@@ -50,3 +50,7 @@ services:
 
   redis:
     image: redis:6-alpine
+
+configs:
+  settings:
+    file: ./settings.yaml
